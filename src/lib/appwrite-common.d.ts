@@ -200,7 +200,7 @@ export interface File {
     dateCreated: number;
     signature: string;
     mimeType: string;
-    sizeOriginal: string;
+    sizeOriginal: number;
 }
 export declare type Executions = Execution[];
 export interface ExecutionsList {
